@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/b28e770cf8.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="testimonials.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+<title>Home</title>
+</head>
+<body style="background-color: #A8DADC; font-family: 'Rubik', sans-serif;">
+
+  <style>
+    .navbar-dark {
+  background-color: #111 !important;
+}
+.navbar-toggle .icon-bar{
+  width: 50px !important;
+  height:30px !important;
+}
+  </style>
+
+  <nav class="navbar navbar-toggleable-md navbar-light " style="padding-left:3vw;background-color:white;">
+    <button class="navbar-toggler navbar-toggler-right" style="width: 8vw; height: 8vw;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="width: 4vw; height: 4vw;"></span>
+    </button>
+    <p class="ms-auto" style="font-size: 3vw; color:#1D3557">L'Avenir Language Alliance</p>
+
+    <a class="navbar-brand" href="#">
+      <img alt="logo" src="Asset/favicon.ico">
+     
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">German</a></li>
+            <li><a class="dropdown-item" href="#">French</a></li>
+         <li><a class="dropdown-item" href="#">Spanish</a></li>
+            <li><a class="dropdown-item" href="#">Italian</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+ 
+
+  <!-- <nav class="navbar navbar-expand-md  navbar-light py-5" style="background-color: white;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/favicon.ico"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">German</a></li>
+              <li><a class="dropdown-item" href="#">French</a></li>
+           <li><a class="dropdown-item" href="#">Spanish</a></li>
+              <li><a class="dropdown-item" href="#">Italian</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+         
+        </ul>
+        
+      </div>
+    </div>
+  </nav> -->
+
+  <div class="container-fluid" style="background-color: #f1faee;padding: 3vw;">
+    <span style="font-size: 9vw; color:#457B9D;">Think Language <br> </span><span style="color:#1D3557; font-size: 8vw;">Think <span style="font-size: 8vw;">L'Avenir</span></span> <br><br>
+        <p style="font-size: 3vw;">Your one-stop solution to all language needs - <br>learning, translation, interpretation & corporate training.</p>
+    <img class="img-fluid" src="Asset/banner.png"  style="padding: 10vw;" alt="">
+        <p style="font-size: 3vw; text-align: center;">With Languages, You Are At Home Anywhere</p>
+  </div>
+  
+  
+  <div class="container-fluid" style="padding: 0px; background-color: black;">
+    <iframe style="position: relative; display:block; left:15%;" width="70%" height="500" src="carousel.html" frameborder="0" scrolling="auto" allowfullscreen></iframe>
+  </div>
+
+  
+  <div class="container-fluid" style="background-color: #A8DADC; padding: 3vw;" >
+    <p style="font-size: 7vw; text-align: center;">Our Courses</p>
+    <div class="list-group" style="border-radius:2vw">
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;"><span style="color: red;">Academic tutoring</span>  for all grades and boards present out there.</h5>
+        </div>
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;"><span style="color: red;">Extra-curricular training</span>  for young language enthusiasts.</h5>
+        </div>
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;"><span style="color: red;">International Exam Preparation</span>  for DELF, DELE, HSK & more.</h5>
+        </div>
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;"><span style="color: red;">Personalized</span>   specially tailored classes to suit your needs.</h5>
+        </div>
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-center " style="padding: 1vw;">
+          <button type="button" class="btn btn-danger" style="border-radius: 3vw;" >Know More</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <p style="font-size: 7vw; text-align: center;">Our Services</p>
+    <div class="list-group" style="border-radius:2vw">
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;">Out of the box <span style="color: red;">culture and language based workshops</span> for kids and adults.</h5>
+        </div>
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;">High quality professional <span style="color: red;">translation services</span> across various industries and domains.</h5>
+        </div>
+     </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;"><span style="color: red;">Corporate trainings</span> to empower your personnel and upgrade their linguistic skills.</h5>
+        </div>
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <i class="social fas fa-check-circle"style="font-size: 2rem; text-decoration: none; color:red;" aria-hidden="true"></i><h5 class="mb-1" style="padding: 2vw;"><span style="color: red;">Interpreting services</span> available 24/7 across languages for any industry.</h5>
+        </div>
+      </div>
+      <div class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-center " style="padding: 1vw;">
+          <button type="button" class="btn btn-danger" style="border-radius: 3vw;" >Request for service trial</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="container-fluid" style="background-color: #f1faee;padding: 3vw;">
+  <p style="font-size: 7vw; text-align: center;">Career opportunities</p>
+  <img class="img-fluid" src="Asset/Project_141-02-removebg-preview.png"  style="padding: 5vw;" alt="">
+  <div class="row">
+    <div class="col">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Language expert?</h5>
+          <hr>
+          <a href="#" class="btn btn-danger" style="border-radius: 3vw;">Apply Here</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card w-100 d-flex">
+        <div class="card-body ">
+          <h5 class="card-title" style="text-align: center;">Looking for job opportunity?</h5>
+          <hr>
+          <a href="#" class="btn btn-danger" style="border-radius: 3vw;">Apply Here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid gtco-testimonials" style="background-color: #A8DADC; padding: 3vw;">
+  <p style="font-size: 7vw; text-align: center;">Testimonials</p>
+  <div class="owl-carousel owl-carousel1 owl-theme">
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/Alkabhatia.PNG" alt="">
+        <div class="card-body">
+          <h5>Alka Bhatia</h5>
+          <p class="card-text">“ Teachers here are very sincere and professional. They put in a lot of efforts and are always ready to go an extra mile to bring out the best in the students. ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/dharashah.PNG" alt="">
+        <div class="card-body">
+          <h5>Dhara Shah</h5>
+          <p class="card-text">“ A hub for all the languages that benefits people right from kids to adults. Learning with professionals guarantees your success and with such a great team, you can hope for nothing but the best! ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/Jinya.PNG" alt="">
+        <div class="card-body">
+          <h5>Jinya Dikshit</h5>
+          <p class="card-text">“ The faculties here at L'Avenir have a very positive approach and are professionals at their job. ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/LopaMehta.PNG" alt="">
+        <div class="card-body">
+          <h5>Lopa Mehta</h5>
+          <p class="card-text">“ The L'avenir team is amazing. My daughter has been with them since 7th grade. She has been learning French from them. Purvi Ma'am and Riya Ma'am are very dedicated teachers. ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/Mamta.PNG" alt="">
+        <div class="card-body">
+          <h5>Mamta Chamkar</h5>
+          <p class="card-text">“ L’Avenir teachers are professionally profound, they are punctual in taking classes. Each and every student is given proper personal time and attention. Parents and students are appraised for the improvement strategies. ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/Mansimehta.PNG" alt="">
+        <div class="card-body">
+          <h5>Mansi Mehta</h5>
+          <p class="card-text">“ My son did English enhancement classes & I'm very happy with the quality of education they provide. My son's level in English has improved. Highly recommended for every child as English is the base of any child's foundation. ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/NipaThakkar.PNG" alt="">
+        <div class="card-body">
+          <h5>Nipa Thakkar</h5>
+          <p class="card-text">“ I am so pleased with L'Avenir Language Alliance. Very quick to respond and they understand what's best for the child. They provide demo classes for every language before enrollment which is a commendable feature. ” </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card text-center"><img class="card-img-top" src="Asset/VrushaliDoshi.png" alt="">
+        <div class="card-body">
+          <h5>Vrushali Doshi</h5>
+          <p class="card-text">“ I am Varun Doshi's parent . I would like to highly recommend their french class. Varun is very happy to learn french .Teachers take full responsibility of child's study..🙂 ” </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<script>
+      (function () {
+        "use strict";
+        var carousels = function () {
+        $(".owl-carousel1").owlCarousel({
+        loop: true,
+        center: true,
+        margin: 0,
+        responsiveClass: true,
+        nav: false,
+        responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        680: {
+          items: 2,
+          nav: false,
+          loop: false
+        },
+        1000: {
+          items: 3,
+          nav: true
+        }
+        }
+        });
+        };
+
+        (function ($) {
+        carousels();
+        })(jQuery);
+        })();
+</script>
+
+
+
+<div class="container-fluid" style="background-color: #f1faee;padding: 3vw;">
+  <div id="myAlert" class="alert alert-success alert-dismissible  collapse">
+    <a id="linkClose" style="text-decoration: none; color: black;" href="#" class="close">&times;</a>
+    <strong>&nbspThank you!</strong> Your message has been received.
+  </div>
+  <p style="font-size: 7vw; text-align: center;">Contact Us</p>
+  <div class="container  text-light" style="background-color: 
+  #313131; border-style: solid; border-width: 1vw; border-color: #1D3557; border-radius: 4vw; padding: 2vw;">
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Your name</label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Contact number</label>
+    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <hr>
+  <button type="button" id="btnSubmit" class="btn btn-danger" style="border-radius: 3vw;" >Send</button>
+</div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+
+      $('#btnSubmit').click(function () {
+          $('#myAlert').show('fade');
+      });
+
+      $('#linkClose').click(function () {
+          $('#myAlert').hide('fade');
+      });
+
+  });
+</script>
+
+<div class="container-fluid" style="background-color: #A8DADC; padding: 3vw;">
+  <h2> <i class="fas fa-map-marker-alt"></i>&nbsp Sion Branch</h2><br>
+  <p style="font-weight:100;">48/9, Seth Sadan, Near Sion-Chunbhatti, Highway, Sion Cir, Sion West, Mumbai, Maharashtra 400022</p>
+  <div class="mapouter">
+    <div class="gmap_canvas" style="border-style: solid;border-width: 5px; border-color: black;border-radius: 2vw;"><iframe width="492" height="326" id="gmap_canvas"
+      src="https://maps.google.com/maps?q=L'%20Avenir%20Language%20Alliance%2048/9,%20Seth%20Sadan,%20Near%20Sion-Chunbhatti,%20Highway,%20Sion%20Cir,%20Sion%20West,%20Mumbai,%20Maharashtra%20400022&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <style>
+        .mapouter {
+              position: relative;
+              text-align: right;
+              height: 326px;
+              width: 380px;
+            }
+        .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 326px;
+              width: 380px;
+            }
+        </style>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" style="background-color: #A8DADC; padding: 3vw; align-items: center;">
+  <div class="container">
+  <a href="https://www.instagram.com/lavenirlanguage/"><i class="social fab fa-2x fa-instagram" style="font-size: 2rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i></a> &nbsp
+        <a href="https://www.facebook.com/lavenirlanguages/"><i class="social fab fa-2x fa-facebook-square" style="font-size: 2rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a> &nbsp
+        <a href="https://www.linkedin.com/company/lavenirlanguagealliance"><i class="social fab fa-2x fa-linkedin-in" style="font-size: 2rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a> &nbsp
+        <a href="https://twitter.com/lavenirlanguage?lang=en"><i class="social fab fa-2x fa-twitter" style="font-size: 2rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a> &nbsp
+        <br><br>
+        <p style="font-size:3vw;">© Copyright 2021 L'Avenir</p>
+      </div>
+</div>
+
+</body>
+</html>
