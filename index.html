@@ -113,6 +113,31 @@
     </div>
   </nav> -->
 
+  <style>
+    .float {
+    position: fixed;
+     width: 60px;
+    height: 60px;
+    top: 680px;
+    right: 30px; 
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+  </style>
+
+<a class="float" target="_blank" href="https://wa.me/918104489168?text=I%20am%20interested%20"><i class="fa fa-whatsapp my-float"></i>
+</a>
+
   <div class="container-fluid" style="background-color: #f1faee;padding: 3vw;">
     <span style="font-size: 9vw; color:#457B9D;">Think Language <br> </span><span style="color:#1D3557; font-size: 8vw;">Think <span style="font-size: 8vw;">L'Avenir</span></span> <br><br>
         <p style="font-size: 3vw;">Your one-stop solution to all language needs - <br>learning, translation, interpretation & corporate training.</p>
@@ -151,7 +176,7 @@
       </div>
       <div class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-center " style="padding: 1vw;">
-          <button type="button" class="btn btn-danger" style="border-radius: 3vw;" >Know More</button>
+       <a href="courses.html" > <button type="button"  class="btn btn-danger" style="border-radius: 3vw;" >Know More</button></a> 
         </div>
       </div>
     </div>
@@ -180,7 +205,7 @@
       </div>
       <div class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-center " style="padding: 1vw;">
-          <button type="button" class="btn btn-danger" style="border-radius: 3vw;" >Request for service trial</button>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lavenirlanguagealliance@gmail.com&su=Request for a trial service&body=I'd like to apply for service."> <button type="button" class="btn btn-danger" style="border-radius: 3vw;" >Request for service trial</button></a> 
         </div>
       </div>
     </div>
@@ -196,7 +221,7 @@
         <div class="card-body">
           <h5 class="card-title" style="text-align: center;">Language expert?</h5>
           <hr>
-          <a href="#" class="btn btn-danger" style="border-radius: 3vw;">Apply Here</a>
+          <a href="https://forms.gle/kJKDynWsacgEV8Kf7" class="btn btn-danger" style="border-radius: 3vw;">Apply Here</a>
         </div>
       </div>
     </div>
@@ -205,7 +230,7 @@
         <div class="card-body ">
           <h5 class="card-title" style="text-align: center;">Looking for job opportunity?</h5>
           <hr>
-          <a href="#" class="btn btn-danger" style="border-radius: 3vw;">Apply Here</a>
+          <a href="https://forms.gle/kJKDynWsacgEV8Kf7  " class="btn btn-danger" style="border-radius: 3vw;">Apply Here</a>
         </div>
       </div>
     </div>
@@ -327,24 +352,26 @@
   <p style="font-size: 7vw; text-align: center;">Contact Us</p>
   <div class="container  text-light" style="background-color: 
   #313131; border-style: solid; border-width: 1vw; border-color: #1D3557; border-radius: 4vw; padding: 2vw;">
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="sendemail.php">
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Your name</label>
-    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
   </div>
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+    <input type="email" name="email" class="form-control"  required placeholder="name@example.com">
   </div>
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Contact number</label>
-    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="">
+    <input type="text" name="Contact" class="form-control" placeholder="Mobile Number" required>
   </div>
   <div class="mb-3">
     <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" name="message"  placeholder="Your Message" required rows="3"></textarea>
   </div>
   <hr>
-  <button type="button" id="btnSubmit" class="btn btn-danger" style="border-radius: 3vw;" >Send</button>
+  <button  type="submit" name="submit" id="btnSubmit" class="btn btn-danger" style="border-radius: 3vw;" >Send</button>
+</form>
 </div>
 </div>
 
@@ -361,6 +388,8 @@
 
   });
 </script>
+
+
 
 <div class="container-fluid" style="background-color: #A8DADC; padding: 3vw;">
   <h2> <i class="fas fa-map-marker-alt"></i>&nbsp Sion Branch</h2><br>
